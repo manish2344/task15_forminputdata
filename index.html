@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="formdata">
+        <label>Firstname</label><br>
+        <input type="text" id="name" /><br>
+        <label>Lastname</label><br>
+        <input type="text" id="lastname" /><br>
+        <label>address</label><br>
+        <input type="text" id="address" /><br>
+        <label>pincode</label><br>
+        <input type="text" id="pincode" /><br>
+        <label for="gender ">gender:</label>
+        <select id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+    </select>
+        <br><br>
+        <label htmlFor="food ">Choose a Food:</label>
+        <select id="food">
+              <option value="Bread ">Bread</option>
+              <option value="pizza ">pizza</option>
+              <option value="sweets ">sweets</option>
+              <option value="Rasgulla ">Rasgulla</option>
+              <option value="Kulfi ">Kulfi</option>
+            </select><br /><br />
+        <label for="">state</label><br>
+        <input type="text" id="state" /><br>
+        <label for=" country ">country</label><br>
+        <input type="text" id="country" /><br>
+
+        <button id="btn">add</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>last name</th>
+                <th>address</th>
+                <th>pincode</th>
+                <th>gender</th>
+                <th>food</th>
+                <th>state</th>
+                <th>country</th>
+            </tr>
+        </thead>
+        <tbody id="result">
+
+        </tbody>
+    </table>
+    <!-- <p id="result"></p> -->
+    <script src="./index.js "></script>
+</body>
+
+</html>
